@@ -1,0 +1,2 @@
+username="lasha"
+print(username)
