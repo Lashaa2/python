@@ -35,6 +35,9 @@ else:
   print("ra arseba xar aba an ra sqesisss dd")
 
 
+ganatleb=input("sad swavlob programirebas :")
+if ganatleb == "GOA":
+  print("Gilocav shen namdvli CHAD xar da sauketeso akademiashi swavlob")
 
 
 
