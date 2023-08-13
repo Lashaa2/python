@@ -22,21 +22,18 @@ else:
 
 
 ##davaleba N3
-age=int(input("sheni asakki :"))
-if age >= 65:
-  print("tqven xart moxucebuli")
+#part1
+age=int(input("ramdeni wlis brdzandebit :"))
+sqesi=(input("romel sqess warmoadgent mamakacs tu qalbatons :"))
+if sqesi == "mamakacs" and 65 <= age :
+
+  print("moshordit aqedan")
+if sqesi == "qalbatons" and 60 <= age :
+    print("tqven gekutvnit pensi ")
 else:
-  print("tqven pensia jer ar gekutvnit")
-
-sqesi=input("romel sqess warmoadgent")
-if sqesi == "qalbatoni" or sqesi == "mamakaci" or sqesi == "qali" or sqesi == "kaci":
-  print("tqven  gekutvnit pensia ")
-else:
-  print("ra arseba xar aba an ra sqesisss dd")
-
-
+  print("moshordit aqedan :")
 ganatleb=input("sad swavlob programirebas :")
-if ganatleb == "GOA":
+if ganatleb == "GOA" or ganatleb == "Goal-oriented-academy" or ganatleb== "goa":
   print("Gilocav shen namdvli CHAD xar da sauketeso akademiashi swavlob")
 
 
