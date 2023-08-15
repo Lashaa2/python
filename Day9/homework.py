@@ -4,7 +4,7 @@
 age = int(input("Your Age: "))
 num = 0
 while age > num:
-    print("glocav shen gaxdi", num )
+    print("glocav shen gaxdi wlis",  num )
     num= num +1
     while num == 8:
         print("gilocav shen gaxdi ", num ," wlis da shemoxvedi GOAshi" )
