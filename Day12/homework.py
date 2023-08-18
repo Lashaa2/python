@@ -4,10 +4,18 @@
 
 
 #part N1
-full_name=["laha wamalaidze"  ]
-a=int(1)
- 
-print( " xmovnebis raodenoba :" ,a * 7)
+
+name = "Lasha wamalaidze"
+
+lower_name = name.lower()
+xmovanebi = ['a', 'e', 'i', 'o', 'u']
+xmovanebi_datvla = 0
+for char in lower_name:
+    if char in xmovanebi:
+        xmovanebi_datvla += 1
+
+
+print("Xmovanebis raodenoba :", xmovanebi_datvla)
 
 #part N2
 names=["lasha" , "baqo" , "marika" , " wamalaidze" ,"wamalaidze" , "zhvania"]
