@@ -4,18 +4,27 @@
 
 
 #part N1
+saxeli_gvari=["L" , "a" , "s" , "h" , "a" , "w" ,"a","m","a","l","a","i","d","z","e"]
+num=0
+i=0
+while (i < len(saxeli_gvari)):
+    if saxeli_gvari[i] == "a" or saxeli_gvari[i] == "e" or saxeli_gvari[i] == "i" or saxeli_gvari[i] == "o" or saxeli_gvari[i]=="u":
+        num=num+1
+        i=i=1
+        print(num)
 
-name = "Lasha wamalaidze"
-
-lower_name = name.lower()
-xmovanebi = ['a', 'e', 'i', 'o', 'u']
-xmovanebi_datvla = 0
-for char in lower_name:
-    if char in xmovanebi:
-        xmovanebi_datvla += 1
+    
 
 
-print("Xmovanebis raodenoba :", xmovanebi_datvla)
+
+
+
+
+
+
+
+
+
 
 #part N2
 names=["lasha" , "baqo" , "marika" , " wamalaidze" ,"wamalaidze" , "zhvania"]
