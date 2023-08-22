@@ -10,7 +10,7 @@ i=0
 while (i < len(saxeli_gvari)):
     if saxeli_gvari[i] == "a" or saxeli_gvari[i] == "e" or saxeli_gvari[i] == "i" or saxeli_gvari[i] == "o" or saxeli_gvari[i]=="u":
         num=num+1
-        i=i=1
+        i=i+1
         print(num)
 
     
