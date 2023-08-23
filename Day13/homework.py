@@ -6,4 +6,4 @@ while(i < len(saxeli_gvari)):
         num=num + 1
     i=i+1
     
-    print(num)
+print(num)
