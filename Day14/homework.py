@@ -35,7 +35,7 @@ if Leader == "Gabrieli" or Leader== "Gabriel" or Leader == "Gabriel molodini":
 else:
     print("Do you know Gabro is best lader in GOA")
 #N7
-Leader=input("Type your name and surname her --")
+Name_surname=input("Type your name and surname her --")
 if 15 < (len(Leader)):
     print("Congrats your name and surname is up to 15")
 elif input("type other name and surname "):
