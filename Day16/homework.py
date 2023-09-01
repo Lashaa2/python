@@ -124,3 +124,17 @@ side2=int(input("meore gverdis sigrdze :"))
 side3=int(input("mesame gverdis sigrdze :"))
 perimetri=side1 + side2 + side3
 print("samkutxedis perimetri udris :",perimetri)
+
+#დავალება4
+for num in range(99, 0, -1):
+    if num > 1:
+        bottles = "bottles" if num > 2 else "bottle"
+        print(f"{num} {bottles} of beer on the wall, {num} {bottles} of beer.")
+        print(f"Take one down and pass it around, {num - 1} {'bottles' if num - 1 > 1 else 'bottle'} of beer on the wall.\n")
+    else:
+        print("1 bottle of beer on the wall, 1 bottle of beer.")
+        print("Take one down and pass it around, no more bottles of beer on the wall.\n")
+
+print("No more bottles of beer on the wall, no more bottles of beer.")
+print("Go to the store and buy some more, 99 bottles of beer on the wall.")
+

@@ -2,3 +2,4 @@
 #print(c[:5])
 #cc="motorbike"
 #print(cc[-4:])
+
